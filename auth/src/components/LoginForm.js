@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import firebase from '@firebase/app';
-import '@firebase/auth';
+import firebase from 'firebase'; // version 4.9.1
+// latest version of firebase
+// import firebase from '@firebase/app';
+// import '@firebase/auth';
 import {StyleSheet, Text} from 'react-native';
 import {Button, Card, CardSection, Input, Spinner} from './common';
 

@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
-import firebase from '@firebase/app';
-import '@firebase/auth';
+import firebase from 'firebase';
+// import firebase from '@firebase/app';
+// import '@firebase/auth';
 import {Header} from './components/common';
 import LoginForm from './components/LoginForm';
 
